@@ -1,3 +1,82 @@
 *{
     font-family: 'work Sans', 'sans-serif';
+    margin: 0;
+    padding: 0;
+}
+/* Shared styles */
+.btn-primary{
+    color: white;
+    border-radius: 6px;
+    background-color: #FF900E;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border: none;
+    padding: 15px 20px;
+}
+/*Header styles*/
+header{
+    background-color: rgba(255,144,14,0.10);
+    padding: 25px 120px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 1rem;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+/* Banner styles */
+.banner-title{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.banner-contant{
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-description{
+    color: gray;
+}
+.banner-img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media screen and (max-width:576px) {
+      header{
+        padding: 15px;
+      }
+      nav{
+       flex-direction: column;
+
+      } 
+}
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 30px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
