@@ -80,3 +80,35 @@ nav li a{
         flex-direction: column;
     }
 }
+
+/* main style */
+main{
+    margin: 0px auto;
+}
+/*teams styles */
+.teams-container{
+    display: flex;
+    align-items: center;
+    padding: 120px;
+}
+.teams-contant-title{
+    font-size: 2.4rem;
+
+}
+.teams-contant-title .Quick-list{
+    color: #727272;
+    font-weight: 400;
+
+}
+.teams-contant-title .text-features{
+    color: #FF900E;
+    font-weight: 500;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.teams-contant{
+    padding-right: 50px;
+    padding-left: 50px;
+}
